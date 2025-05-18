@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+div {
+  max-width: 70ch;
+}
+
+div > p:not(:nth-child(2)) {
+  text-indent: 2rem;
+}
+
+div > p:last-child {
+  text-align: right;
+}
